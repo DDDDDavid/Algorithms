@@ -3,3 +3,4 @@ resource/
 
 # big data
 data_all/
+*.zip
