@@ -26,3 +26,17 @@
 ### .gitignore
     在git工程下根目录下增加文件 <.gitignore> ，文件中写入不需要提交到git远程目录的文件夹和文件，可以模糊匹配
 
+### 解决冲突
+#### 冲突一：
+版本落后，无法push
+方法1:需要先在push前将本地resposiory先pull下来  
+git pull origin master  
+git push -u origin master  
+
+方法2:强制push，会修改远程文件，不可取
+git push -u origin master -f
+
+方法3:新建分支，然后push
+git branch [new-branch]
+git push -u origin [new-branch]
+
