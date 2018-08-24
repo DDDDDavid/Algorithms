@@ -28,15 +28,15 @@
 
 ### 解决冲突
 #### 冲突一：
-版本落后，无法push
+版本落后，无法push  
 方法1:需要先在push前将本地resposiory先pull下来  
 git pull origin master  
 git push -u origin master  
 
-方法2:强制push，会修改远程文件，不可取
+方法2:强制push，会修改远程文件，不可取  
 git push -u origin master -f
 
-方法3:新建分支，然后push
-git branch [new-branch]
+方法3:新建分支，然后push  
+git branch [new-branch]  
 git push -u origin [new-branch]
 
