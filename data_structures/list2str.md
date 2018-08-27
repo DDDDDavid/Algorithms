@@ -29,6 +29,7 @@ str1='a b c'
 list1=str1.split(" ")
 
 >list1=['a','b','c']
+```
 
 ### str转int  
 #### int()
