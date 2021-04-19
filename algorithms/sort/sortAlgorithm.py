@@ -4,69 +4,69 @@
 Created on Tue Aug 14 18:13:13 2018
 
 @author: madawei1
+
+https://www.cnblogs.com/huang-yc/p/9774287.html
 """
-x=[3,2,1,4,9,34,5]
-n=len(x)
+
 
 #冒泡排序
-def BubblingSort(x,n):
-    for i in range(0,n):
+def bubble_sort(arr):
+    n =len(arr)
+    for i in range(n):
         for j in range(i,n):
-            tmp=x[i]
-            if x[i]<x[j]:
-                x[i]=x[j]
-                x[j]=tmp
-    return x
+            if arr[i]>arr[j]:
+                arr[i],arr[j] = arr[j],arr[i]
+    res = arr
+    return res
 
 #插入排序
-def InsertionSort(x,n):
+def InsertionSort(arr):
     
-    return x
+    return res
 
 #简单选择排序
-def SelectionSort(x,n):
+def SelectionSort(arr):
     
-    return x
+    return res
 
 #希尔排序
-def ShellSort(x,n):
+def ShellSort(arr):
     
-    return x
+    return res
 
 #归并排序
-def MergeSort(x,n):
+def MergeSort(arr):
     
-    return x
+    return res
 
 #快速排序
-def QuickSort(x,n):
+def QuickSort(arr):
     
-    return x
+    return res
 
 #堆排序
-def HeapSort(x,n):
+def HeapSort(arr):
     
-    return x
+    return res
 
 #计数排序
-def CountingSort(x,n):
+def CountingSort(arr):
     
-    return x
+    return res
 
 
 #桶排序
-def BucketSort(x,n):
+def BucketSort(arr):
     
-    return x
+    return res
 
 #基数排序
-def RadixSort(x,n):
+def RadixSort(arr):
     
-    return x
+    return res
 
-                
+arr=[3,2,1,4,9,34,5]            
 
-
-x0=x.copy()
-y0=BubblingSort(x0,n)   
-print(y0)
+res = bubble_sort(arr)
+res =    
+print(res)
